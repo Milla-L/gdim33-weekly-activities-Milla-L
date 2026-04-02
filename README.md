@@ -9,8 +9,7 @@
 3. The TA, Eric, I talked to enjoys FPS and multiplayer games that are not very horror. He likes GTFO but can not do pure horror games.
 
 ### Activity 2
-<img width="3300" height="2550" alt="Vertical Slice Breakdown" src="https://github.com/user-attachments/assets/15bdf39f-0773-4a01-a848-a3b65b5898c5" />
-
+<img width="3300" height="2550" alt="Vertical Slice Breakdown" src="https://github.com/user-attachments/assets/e490f5e5-d92b-4596-ad54-24856b0cca94" />
 
 
 ## W2
