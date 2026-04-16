@@ -21,4 +21,11 @@ None
 <img width="3300" height="2550" alt="Updated Vertical Slice Breakdown" src="https://github.com/user-attachments/assets/f956b59d-6e48-4567-90e9-8427661a682c" />
 
 ### Activity 2
+1. It is advantageous to make the event name "clickNpcEventName" because it tells you that the transition to the event is going to happen by clicking on the NPC very clearly. 
+
+2. A Debug.Log() that I used was in the state machine transitions to check if the transitions were actually switching. When the Debug.Log() didn't show up, I knew it didn't work and as a result, immediately was able to find the source of the problem to fix. 
+
+3. The Set Cursor Lock State is very relevant to my Vertical Slice because I am doing the visual novel and so I will need the cursor to be set and manueverable. 
+
+4. The concept of a "game stste" is also very relevant to my Vertical Slice because it may be a really good means of tracking NPC relationship states with the Player based on the dialogue chosen by the player. 
 
