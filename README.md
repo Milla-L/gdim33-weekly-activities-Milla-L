@@ -14,3 +14,11 @@
 
 ## W2
 None
+
+
+## W3
+### Activity 1
+<img width="3300" height="2550" alt="Updated Vertical Slice Breakdown" src="https://github.com/user-attachments/assets/f956b59d-6e48-4567-90e9-8427661a682c" />
+
+### Activity 2
+
