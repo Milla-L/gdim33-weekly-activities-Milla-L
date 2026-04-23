@@ -29,3 +29,12 @@ None
 
 4. The concept of a "game stste" is also very relevant to my Vertical Slice because it may be a really good means of tracking NPC relationship states with the Player based on the dialogue chosen by the player. 
 
+
+## W4
+### Activity 1
+Playtesting Team: Eli, Minjoo, Ruth
+Playtesting Goals: Test if dialogue runs properly
+Playtesting Notes: Make sure UI actually is active in build, add tree textures
+
+### Activity 2
+
