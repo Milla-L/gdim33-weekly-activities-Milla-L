@@ -33,7 +33,9 @@ None
 ## W4
 ### Activity 1
 Playtesting Team: Eli, Minjoo, Ruth
+
 Playtesting Goals: Test if dialogue runs properly
+
 Playtesting Notes: Make sure UI actually is active in build, add tree textures
 
 ### Activity 2
