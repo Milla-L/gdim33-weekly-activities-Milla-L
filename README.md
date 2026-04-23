@@ -37,4 +37,6 @@ Playtesting Goals: Test if dialogue runs properly
 Playtesting Notes: Make sure UI actually is active in build, add tree textures
 
 ### Activity 2
-
+1. A writer could absolutely write in more dialogue without touching any code. The only things the writer would have to touch are the ScriptableObjects and then dragging them between eachother. Because all of the dialogue is stored in the ScriptableObjects and all the coding does is refer back to the Scriptable Objects. 
+2. The limit in many dialogue nodes the writer can write is that there can only be up to four buttons at a time. The dialogue could be endless, but there can only be four at a time.
+3. The purpose of the Regenerate Nodes button is to put code written in a script into a new node, finding nodes that are not attached to any parents, and to update the nodes after the codes attached have been changes. 
