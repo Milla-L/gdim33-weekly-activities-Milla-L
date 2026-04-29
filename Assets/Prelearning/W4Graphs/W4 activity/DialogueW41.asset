@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d87814806be98455aa06d85e22ad29d6, type: 3}
+  m_Name: DialogueW41
+  m_EditorClassIdentifier: 
+  Line: teheheheehe
+  ReplyOptions:
+  - line: mimimi
+    nextNode: {fileID: 11400000, guid: d3f9457e6ace6de489ca62f50a8752c0, type: 2}
+  - line: dahahaha
+    nextNode: {fileID: 11400000, guid: 71ab919f258071742876cce00406a035, type: 2}
+  - line: ninini
+    nextNode: {fileID: 11400000, guid: 390823d2f672c7648b167e27f1de0bd1, type: 2}
