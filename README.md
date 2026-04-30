@@ -41,4 +41,26 @@ Playtesting Notes: Make sure UI actually is active in build, add tree textures
 ### Activity 2
 1. A writer could absolutely write in more dialogue without touching any code. The only things the writer would have to touch are the ScriptableObjects and then dragging them between eachother. Because all of the dialogue is stored in the ScriptableObjects and all the coding does is refer back to the Scriptable Objects. 
 2. The limit in many dialogue nodes the writer can write is that there can only be up to four buttons at a time. The dialogue could be endless, but there can only be four at a time.
-3. The purpose of the Regenerate Nodes button is to put code written in a script into a new node, finding nodes that are not attached to any parents, and to update the nodes after the codes attached have been changes. 
+3. The purpose of the Regenerate Nodes button is to put code written in a script into a new node, finding nodes that are not attached to any parents, and to update the nodes after the codes attached have been changes.
+
+
+## W5
+### Activity 1: Task Breakdown
+1. Build Scriptable Object
+	- Make scriptable object Dialogue Node
+	- Build visual script to advance
+	- Debug by putting in random button and testing they progress
+2. Input Dialogue
+	- Write out player dialogue
+	- Write out NPC dialogue
+	- Connect the nodes as needed
+	- Debug by putting in the nodes and testing to see if the branching dialogue progresses as meant to
+3. Attach Friendship variable to Scriptable Object 
+	- Make Scene Variable Friendship
+	- Set relationship value to Scriptable object
+	- Make the Friendship variable go up or down based on the value in the scriptable object
+	- Debug by adding Debug log to show the Friendship variable to check if it changes
+
+### Activity 2: Class work
+In class, I wrote out more dialogue and edited the nodes so that they connected properly. I made sure that all parts of the dialogue progression worked along the progression of the advancer. As well as this, I made the Friendship variable, set it to 50, and made sure it updated when the button clicked. I had to add and subtract based on the if statement that I wrote and made sure it updated properly. 
+
