@@ -64,3 +64,20 @@ Playtesting Notes: Make sure UI actually is active in build, add tree textures
 ### Activity 2: Class work
 In class, I wrote out more dialogue and edited the nodes so that they connected properly. I made sure that all parts of the dialogue progression worked along the progression of the advancer. As well as this, I made the Friendship variable, set it to 50, and made sure it updated when the button clicked. I had to add and subtract based on the if statement that I wrote and made sure it updated properly. 
 
+
+## W6
+### Activity 1
+In this playtest, I have added new dialogue options along each pathway and background music that should change based on the state machine. I also fixed the trees to have color. 
+The itch link is https://milla-l.itch.io/vs-pt-2. My playtesting goals are to see how the dialogue flows and if it works as well as if the music does actually change. 
+
+Notes:
+1. Need to scale UI much better.
+2. Make sure text fits in buttons and in the NPC text slot.
+3. The audio did not switch properly, so need to fix that.
+4. The aesthetic buttons are nice.
+5. Add more dialogue.
+
+### Activity 2
+1. The multiply setting makes the resulting nodes less saturated because the multiplied values are decimals so they decrease as they are multiplied. As they decrease, the values darken, thus making the colors darken.
+2. If the alpha is multiplied by the multiply setting, then the resulting value would be more transparent because the alpha value would decrease to the lower transparencies.
+3. 
