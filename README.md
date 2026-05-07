@@ -81,4 +81,4 @@ Notes:
 1. The multiply setting makes the resulting nodes less saturated because the multiplied values are decimals so they decrease as they are multiplied. As they decrease, the values darken, thus making the colors darken.
 2. If the alpha is multiplied by the multiply setting, then the resulting value would be more transparent because the alpha value would decrease to the lower transparencies.
 3. The shader gets the UV values from the texture map that is put in through the 2D texture map sample. The UV values come from just that it is a texture map and needs the vector values so it takes the UV0 node.
-4. I love math so it is very exciting that I can change colors with map. 
+4. I love math so it is very exciting that I can change colors with math. 
