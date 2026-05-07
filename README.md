@@ -80,4 +80,4 @@ Notes:
 ### Activity 2
 1. The multiply setting makes the resulting nodes less saturated because the multiplied values are decimals so they decrease as they are multiplied. As they decrease, the values darken, thus making the colors darken.
 2. If the alpha is multiplied by the multiply setting, then the resulting value would be more transparent because the alpha value would decrease to the lower transparencies.
-3. 
+3. The shader gets the UV values from 
