@@ -86,5 +86,8 @@ Notes:
 ## W7
 1. The data from the vertex color comes from the shiba mesh vertices.
 2. The blending happens at the vertices because the information is being calculated at the vertices points from the color stored in the vertices being shaded over by the shader.
-3. The shiba is colored in less detail because the color being called is that of the vertices in the shiba mesh rather than a seperate texture that is able to have more detail because it is an image.
-4. The shiba's colors make it look like the normal has no real texture to it which is why the mesh colors are so smooth. 
+3. The shiba is colored in less detail because the color being called is that of the vertices in the shiba mesh rather than a seperate texture that is able to have more detail because it is an image. The shiba's colors make it look like the normal has no real texture to it which is why the mesh colors are so smooth. The vector color can be really good for seeing what a mesh may look like in the scene before adding additional textures and reducing the amount of textures needed in addition to what is already there. It can also point out any funky mesh problems before applying the texture. 
+4. From what I can see, probably nothing looks wrong with the normal of the mesh of the shiba. The only thing that looks odd is that half is red and orange and the other is green and blue, but that can also be from lighting. 
+5. Another color output of a shader that could be helpful with testing debug is tangent vector. It may also be useful because it gives the perpendicular directions so that technical artists can know that the vertices are in the right position.
+6. There is an error on the back of the shiba because one of the vertices is inwards a little bit which causes shading in the small location on the back.
+7. We set the blending mode to additive so that the tint can lay over the already existing texture and create the clearing effect in the white spots and darker more tinted areas in the black zones of the texture. Otherwise, the texture would not show up as tinted or as clear which is important for fire. 
