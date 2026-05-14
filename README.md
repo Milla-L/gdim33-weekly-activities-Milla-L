@@ -82,3 +82,9 @@ Notes:
 2. If the alpha is multiplied by the multiply setting, then the resulting value would be more transparent because the alpha value would decrease to the lower transparencies.
 3. The shader gets the UV values from the texture map that is put in through the 2D texture map sample. The UV values come from just that it is a texture map and needs the vector values so it takes the UV0 node.
 4. I love math so it is very exciting that I can change colors with math. 
+
+## W7
+1. The data from the vertex color comes from the shiba mesh vertices.
+2. The blending happens at the vertices because the information is being calculated at the vertices points from the color stored in the vertices being shaded over by the shader.
+3. The shiba is colored in less detail because the color being called is that of the vertices in the shiba mesh rather than a seperate texture that is able to have more detail because it is an image.
+4. The shiba's colors make it look like the normal has no real texture to it which is why the mesh colors are so smooth. 
