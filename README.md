@@ -91,3 +91,19 @@ Notes:
 5. Another color output of a shader that could be helpful with testing debug is tangent vector. It may also be useful because it gives the perpendicular directions so that technical artists can know that the vertices are in the right position.
 6. There is an error on the back of the shiba because one of the vertices is inwards a little bit which causes shading in the small location on the back.
 7. We set the blending mode to additive so that the tint can lay over the already existing texture and create the clearing effect in the white spots and darker more tinted areas in the black zones of the texture. Otherwise, the texture would not show up as tinted or as clear which is important for fire. 
+
+## W8
+### Activity 1: Playtest Notes
+Since the Milestone 2 submission, I attempted to fix up my second ending sequence and messed around with the state machine a bit more to try to get it to work in the audio I wanted. I also added more choices to my fourth level dialogue and formatted the dialogue a tad better. 
+[Playtest 3](https://itch.io/game/edit/4596295)
+My Playtesting goal was to check to see if my second ending sequence worked and see if the dialogue flow was still well. 
+Notes:
+- Dialogue was still crowded to the edges of the dialogue box
+- The second ending sequence still does not work
+- Need to make the NPC bar more notable in going up/down so that it is easier to tell when the player has an impact on the bar.
+
+### Activity 2: 2C
+1. The name of the pass associated with the post-processing effect is Render PostProcessing Effects We can tell because it is the name and the custom render is explicitly stated. We can also tell because it is a rendering effect that draws procedures before the Fullscreen pass and FinalBlit that was made and called from the custom pass.
+2. When the LERP value is set to 0.5, the texture is visible but faded. When the LERP value is set to 1, the texture competely overlays the screen at maximum opacity. When the LERP value is set to 0, the texture screen overlay does not show at all.
+3. The screen looks like this because the LERP controls the fading of the texture.
+4. The algorithm of the LERP uses the (sin(time)+1)/2 instead of sin(time) because sin(time) goes into the negatives which causes the screen to get overly bright. In comparison, the (sin(time)+1)/2 reduces the interval at which the texture fades and moves the graph over to start at 0 rather than 1. 
