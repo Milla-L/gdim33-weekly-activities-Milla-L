@@ -123,4 +123,4 @@ Notes:
 
 ### Activity 2: Vertical Slice Work
 <img width="838" height="466" alt="image" src="https://github.com/user-attachments/assets/e0a727e6-248c-4248-81b2-3f765f72549c" />
-This class period, I made further modifications to my shader graph and attempted to make it so that two would overlay while having different effects. 
+This class period, I made further modifications to my shader graph and attempted to make it so that two would overlay while having different effects. Additionally, I fixed my second alternate ending and optimized the coding to make it cleaner. 
