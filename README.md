@@ -106,4 +106,17 @@ Notes:
 1. The name of the pass associated with the post-processing effect is Render PostProcessing Effects We can tell because it is the name and the custom render is explicitly stated. We can also tell because it is a rendering effect that draws procedures before the Fullscreen pass and FinalBlit that was made and called from the custom pass.
 2. When the LERP value is set to 0.5, the texture is visible but faded. When the LERP value is set to 1, the texture competely overlays the screen at maximum opacity. When the LERP value is set to 0, the texture screen overlay does not show at all.
 3. The screen looks like this because the LERP controls the fading of the texture.
-4. The algorithm of the LERP uses the (sin(time)+1)/2 instead of sin(time) because sin(time) goes into the negatives which causes the screen to get overly bright. In comparison, the (sin(time)+1)/2 reduces the interval at which the texture fades and moves the graph over to start at 0 rather than 1. 
+4. The algorithm of the LERP uses the (sin(time)+1)/2 instead of sin(time) because sin(time) goes into the negatives which causes the screen to get overly bright. In comparison, the (sin(time)+1)/2 reduces the interval at which the texture fades and moves the graph over to start at 0 rather than 1.
+
+## W9 
+### Activity 1: Brainstorming Rendering Effects
+1. Minecraft
+2. Nausea Potion Effect
+   - Full screen effect
+   - This would take from an inheritence system that would check for consumable object, notice the potion consumption, find which potion duration the consumed potion is, go into the specific potion consumed, activate the event which activates the rendering effect in the game
+   - The rendering effect would go through a sin graph to control its time movement and the screen would move side to side over this time to create the trip effect.
+   - The effect would deactivate after the time limit runs out in the potion duration code.
+4. Turning red when hit
+   - When hit, the entity would take damage and then play the renderer feature
+   - The material would temporarily give the mob a red hue that covers the entities original material that would vanish again after a moment.
+   - The entity would register the hit and take the apropriate damage before activating the render feature. The render feature would play out once over and end per hit. 
