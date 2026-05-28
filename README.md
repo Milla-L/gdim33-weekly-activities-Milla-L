@@ -122,5 +122,8 @@ Notes:
    - The entity would register the hit and take the apropriate damage before activating the render feature. The render feature would play out once over the material to give it the hue and stop after the hit has stopped.
 
 ### Activity 2: Vertical Slice Work
+https://github.com/Milla-L/VerticalSlice-GDIM-33/commit/a3af8adbde42855a8e683983f444b62725577e9a 
+
+
 <img width="838" height="466" alt="image" src="https://github.com/user-attachments/assets/e0a727e6-248c-4248-81b2-3f765f72549c" />
 This class period, I made further modifications to my shader graph and attempted to make it so that two would overlay while having different effects. Additionally, I fixed my second alternate ending and optimized the coding to make it cleaner. 
