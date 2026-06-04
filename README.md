@@ -129,3 +129,8 @@ https://github.com/Milla-L/VerticalSlice-GDIM-33/commit/a3af8adbde42855a8e683983
 
 
 This class period, I made further modifications to my shader graph and attempted to make it so that two would overlay while having different effects. Additionally, I fixed my second alternate ending and optimized the coding to make it cleaner. 
+
+
+## W10
+### Activity 1
+1. Since the last milestone, I have redone my renderer to make the second render layer move significantly differently. 
