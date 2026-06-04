@@ -133,4 +133,10 @@ This class period, I made further modifications to my shader graph and attempted
 
 ## W10
 ### Activity 1
-1. Since the last milestone, I have redone my renderer to make the second render layer move significantly differently. 
+1. Since the last milestone, I have redone my renderer to make the second render layer move significantly differently. Rather than it being a fast shooting star effect with the pupils, it goes in a much slower circular movement that circles around the center of the eye outlines. I also yet again attempted to rescale the UI to not go over the buttons.
+2. [Playtest 4](https://milla-l.itch.io/vs)
+3. My playtesting goal is to see if the render texture looks good and fits in place. I also want to see if the UI hopefully, finally looks decent.
+4. Playtesting Notes:
+   - The UI still does not fit into the button slot, but I now have a better means of fixing it
+   - The render feature looks good and according to playtesters is much better than the previous ones
+   - Should add a different font so it looks less boring
