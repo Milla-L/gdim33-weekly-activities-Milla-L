@@ -140,6 +140,8 @@ This class period, I made further modifications to my shader graph and attempted
    - The UI still does not fit into the button slot, but I now have a better means of fixing it
    - The render feature looks good and according to playtesters is much better than the previous ones
    - Should add a different font so it looks less boring
+
+
 ### Activity 2: Planning Strategies
 Our useful strategy for breaking down a large project into a lot of smaller parts is to have an over all gameplan. Our list is as follows:
 - Have overall goal/end game
@@ -150,3 +152,10 @@ Our useful strategy for breaking down a large project into a lot of smaller part
   - visual aids
   - how-to lists to keep track of what needs to be done in order
 - priority list for tasks
+
+### Activity 3: Vertical Slice Work
+
+
+https://github.com/UCI-GDIM33/VerticalSlice/commit/d3a473883830911111d485516440c81e96839e70 
+
+In this class period, I added new fonts to the player and NPC text lines. I also finally got the UI to actually scale properly. I tested it, I swear it works this time. I also set my renderer to work during specific friendship levels. 
