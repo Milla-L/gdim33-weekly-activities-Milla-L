@@ -132,7 +132,7 @@ This class period, I made further modifications to my shader graph and attempted
 
 
 ## W10
-### Activity 1
+### Activity 1: Playtest
 1. Since the last milestone, I have redone my renderer to make the second render layer move significantly differently. Rather than it being a fast shooting star effect with the pupils, it goes in a much slower circular movement that circles around the center of the eye outlines. I also yet again attempted to rescale the UI to not go over the buttons.
 2. [Playtest 4](https://milla-l.itch.io/vs)
 3. My playtesting goal is to see if the render texture looks good and fits in place. I also want to see if the UI hopefully, finally looks decent.
@@ -140,3 +140,13 @@ This class period, I made further modifications to my shader graph and attempted
    - The UI still does not fit into the button slot, but I now have a better means of fixing it
    - The render feature looks good and according to playtesters is much better than the previous ones
    - Should add a different font so it looks less boring
+### Activity 2: Planning Strategies
+Our useful strategy for breaking down a large project into a lot of smaller parts is to have an over all gameplan. Our list is as follows:
+- Have overall goal/end game
+  - mechanics
+  - aesthetics
+  - major features
+- do breakdown of major components (helps with scoping)
+  - visual aids
+  - how-to lists to keep track of what needs to be done in order
+- priority list for tasks
